@@ -1,0 +1,250 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    height: 100%;
+}
+body {
+    margin: 0;
+    background-color: #fafafa !important;
+}
+
+a {
+    color: #387D02 !important;
+    text-decoration:none !important;
+}
+
+a:hover {
+    color: #48A105 !important;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.navbar-header {
+    padding:12px;
+    width: 100%;
+    background-color: #333;
+    color: #ddd;
+}
+
+.navbar-header a {
+    color: #ddd !important;
+}
+
+.navbar-header a:hover {
+    color: #fff !important;
+}
+
+.sidebar {
+    margin-top:20px;
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+}
+
+.content-inner {
+    margin-left: 8px;
+}
+
+div.sidebar i.el {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 14px;
+}
+
+div.sidebar div.sidebar-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.extra-pagination {
+    border-bottom: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+nav.pagination {
+    margin: 8px;
+}
+
+.pagination .newer-posts {
+    margin-right: 20px;
+}
+
+.pagination .older-posts {
+    margin-left: 20px;
+}
+
+article.post {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+article.post h2 {
+    padding-top: 0px;
+}
+
+.content article.post {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+header.post-header {
+    margin-bottom: 0px;
+}
+
+div.post-callout {
+    margin-top: 20px;
+}
+
+section.post-meta {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 20px;
+}
+
+footer.post-meta {
+    margin-top:20px;
+    font-size: 12px;
+}
+
+.read-next h2 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+/* Each icon is created by inserting the correct character into the
+   content of the :before pseudo element. Like a boss. */
+.icon-ghost:before {
+    content: "\f600";
+}
+.icon-feed:before {
+    content: "\f601";
+}
+.icon-twitter:before {
+    content: "\f602";
+    font-size: 1.1em;
+}
+.icon-google-plus:before {
+    content: "\f603";
+}
+.icon-facebook:before {
+    content: "\f604";
+}
+.icon-arrow-left:before {
+    content: "\f605";
+}
+.icon-stats:before {
+    content: "\f606";
+}
+.icon-location:before {
+    content: "\f607";
+    margin-left: -3px; /* Tracking fix */
+}
+.icon-link:before {
+    content: "\f608";
+}
+.icon-menu:before {
+    content: "\f609";
+}
+
+section.share {
+    margin-top:40px;
+}
+section.share h4 {
+    font-size: 14px;
+}
+
+div.more h4 {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.read-next {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.read-next-story {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    min-width: 50%;
+    text-decoration: none;
+    position: relative;
+    text-align: right;
+    color: #aaa;
+    overflow: hidden;
+    background-color: rgb(248,248,248);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.read-next-story h2 {
+    font-size: 16px;
+    color: rgb(150, 150, 150);
+}
+
+.read-next-story.prev {
+    /*display: none;*/
+    text-align: left;
+    border-right: 1px solid #efefef;
+}
+
+.read-next-story .post {
+    float: right;
+    width: 100%;
+}
+.site-footer {
+    position: relative;
+    margin: 8rem 0 0 0;
+    padding: 1rem 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.75em;
+    color: #BBC7CC;
+}
+
+.site-footer a {
+    color: #BBC7CC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.site-footer a:hover {
+    border-bottom: #bbc7cc 1px solid;
+}
+
+.poweredby {
+    display: block;
+    width: 45%;
+    float: right;
+    text-align: right;
+}
+
+.copyright {
+    display: block;
+    width: 45%;
+    float: left;
+}
